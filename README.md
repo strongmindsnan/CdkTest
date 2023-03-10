@@ -4,4 +4,4 @@ The issue occurs when trying to deploy a simple cluster with an instance of Kafk
 
 The exact resource that it fails at (here “pubsubclustermanifestzookeepersvc4A739AD8”) differs between attempts, and can be both the services, the AWS auth object, and the pods. 
 
-Note that the "YourRoleNameHere" on line 174 needs to be filled out with the name of the role you’re using. 
+Note that the "YourRoleNameHere" on line 174 of ```cdktest-stack``` needs to be filled out with the name of the role you’re using. 
